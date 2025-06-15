@@ -1,0 +1,335 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f8f9fa;
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+	height: 5vh;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+.logo-titulo {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+
+.logo-titulo p {
+	font-size: 1.2rem;
+	font-weight: bold;
+	background: linear-gradient(to right, #67a5cf, #00439c);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.logo {
+	height: 20px;
+	margin-right: 10px;
+}
+
+.note-profile {
+	width: 200px;
+}
+
+.note-profile p {
+	width: 200px;
+}
+
+sup {
+	display: inline-block;
+	color: white;
+	background-color: red;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.dashboard {
+	display: flex;
+}
+
+.sidebar {
+	position: sticky;
+	top: 5vh;
+	width: 280px;
+	background-color: #fff;
+	border-right: 1px solid #ddd;
+	height: 95vh;
+	padding: 1rem;
+}
+.sidebar h2 {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+.sidebar nav a {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.75rem 1rem;
+	border-radius: 0.5rem;
+	color: #111;
+	text-decoration: none;
+	margin-top: 0.55rem;
+	margin-bottom: 0.5rem;
+}
+.sidebar nav a.active {
+	background-color: #e7f0fd;
+	color: #00439c;
+	font-weight: 600;
+}
+
+.sidebar nav a:hover {
+	background-color: rgb(240, 240, 240);
+}
+
+.main {
+	flex: 1;
+	padding: 2rem;
+}
+.greeting {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+.cards {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 4rem;
+	margin-bottom: 2rem;
+}
+.card {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 1rem;
+	padding: 1rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-text h4 {
+	color: #6b7990;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.card-text p {
+	font-size: 0.9rem;
+}
+
+.card-text strong {
+	font-size: 1.2rem;
+}
+
+.icon-style {
+	width: 44px;
+	height: 44px;
+	padding: 10px;
+	border-radius: 50%;
+	overflow: visible;
+	text-align: center;
+}
+
+.pendings {
+	background-color: #dbeafe;
+}
+
+.treatments {
+	background-color: #dcfce7;
+}
+
+.message {
+	background-color: #f3e8ff;
+}
+
+.payment {
+	background-color: #fef9c3;
+}
+
+.alert {
+	background-color: #fee2e2;
+}
+
+.card-date {
+	display: flex;
+	gap: 8px;
+}
+
+.cancel-btn {
+	background-color: #eb253f;
+	padding: 8px;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+	border-radius: 8px;
+	border: 1px solid #747474;
+	color: white;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.cancel-btn:hover {
+	background-color: rgb(150, 14, 14);
+}
+
+.reprogram-btn {
+	background-color: white;
+	padding: 8px;
+	font-weight: 400;
+	font-family: "Poppins", sans-serif;
+	border-radius: 8px;
+	border: 1px solid #a3adbe;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.reprogram-btn:hover {
+	background-color: rgb(158, 158, 158);
+}
+
+.activities {
+	display: flex;
+	gap: 1rem;
+}
+
+.activities-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.activities-container h4 {
+	padding: 12px 0;
+	border-bottom: 1px solid #e2e2e2;
+	width: 100%;
+}
+
+.recent-activities {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	list-style: none;
+}
+
+.recent-activities li {
+	display: flex;
+	gap: 8px;
+	padding: 16px;
+	width: 100%;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.recent-activities li:last-child {
+	border: none;
+}
+
+.recent-activities span {
+	font-size: 0.8rem;
+	color: #8f8f8f;
+}
+
+.history-treatments {
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.history-treatments h4 {
+	padding: 12px 0;
+	border-bottom: 1px solid #e2e2e2;
+	width: 100%;
+}
+
+.treatments-notes {
+	display: flex;
+	gap: 32px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.treatments-container {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.treatments-container span {
+	font-size: 0.9rem;
+	color: #8f8f8f;
+	margin-bottom: 20px;
+}
+
+.progress-meter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.progress-meter p:first-child {
+	font-size: 0.9rem;
+}
+
+.progress-bar {
+	height: 6px;
+	border-radius: 4px;
+	background-color: #e0e0e0;
+	overflow: hidden;
+	margin-top: 0.5rem;
+	margin-bottom: 8px;
+}
+.progress-bar div {
+	height: 100%;
+}
+.section {
+	margin-bottom: 2rem;
+}
+.section h3 {
+	margin-bottom: 1rem;
+}
+.cta-button {
+	display: inline-block;
+	background-color: #2563eb;
+	color: #fff;
+	padding: 0.75rem 1.5rem;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	font-weight: 600;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+	background-color: #003377;
+}
+
+.dentist-notes {
+	width: 50%;
+	padding: 16px 12px;
+	background-color: #eff6ff;
+	border-radius: 12px;
+}
+
+.dentist-notes strong {
+	margin: 10px 0 8px;
+}
+
+.dentist-notes span {
+	font-size: 0.9rem;
+	color: #686868;
+}

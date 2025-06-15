@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>OdontoAsociados</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="../CSS/dashboard-patient.css" />
+		<link
+			rel="stylesheet"
+			href="../CSS/detail-information.css" />
+	</head>
+	<body>
+		<header>
+			<div class="logo-titulo">
+				<p>Odontólogos Asociados</p>
+				<img
+					src="../assets/icons/tooth-icon.svg"
+					alt="Logo Odontólogos Asociados"
+					class="logo" />
+			</div>
+			<div>🔔<sup>2</sup> 👤 Diana Castaño</div>
+		</header>
+		<div class="dashboard">
+			<aside class="sidebar">
+				<nav>
+					<a href="./dashboard-patient.html">🏠 Inicio</a>
+					<a href="./appointment.html">📅 Citas</a>
+					<a href="./medical-history.html">📄 Historial médico</a>
+					<a href="./payment-history.html">💳 Historial de pago</a>
+					<a href="./notifications.html">
+						💬 Notificaciones
+						<sup>2</sup>
+					</a>
+					<a
+						href="#"
+						class="active"
+						>👤 Perfil</a
+					>
+					<a href="../index.html">🔚 Terminar sesión</a>
+				</nav>
+				<div style="margin-top: auto">
+					<a
+						href="./booking-appointment.html"
+						class="cta-button"
+						>+ Nueva cita</a
+					>
+				</div>
+			</aside>
+			<main class="main">
+				<form class="user-profile">
+					<h2>Perfil de usuario</h2>
+					<label>Nombre completo</label>
+					<input
+						type="text"
+						value="Diana Castaño" />
+					<label>Numero de identificación</label>
+					<input
+						type="text"
+						value="123456789" />
+					<label>Fecha de nacimiento</label>
+					<input
+						type="date"
+						value="1990-05-20" />
+					<label>Número de celular</label>
+					<input
+						type="tel"
+						value="3101234567" />
+					<label>Correo electrónico</label>
+					<input
+						type="email"
+						value="diana.zap@email.com" />
+					<label>Contraseña</label>
+					<input
+						type="password"
+						value="********" />
+					<label>Confirmar contraseña</label>
+					<input
+						type="password"
+						value="********" />
+						<label class="checkbox-container">
+						<input
+							type="checkbox"
+							checked />
+							¿Alergia a medicamentos?
+						</label>
+					<label>Nombre del medicamento</label>
+					<input
+						type="text"
+						value="Penicilina" />
+					<label>Seguridad social (EPS)</label>
+					<input
+						type="text"
+						value="Salud Total" />
+					<button>Guardar Cambios</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>OdontoAsociados</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="../CSS/dashboard-patient.css" />
+	</head>
+	<body>
+		<header>
+			<div class="logo-titulo">
+				<p>Odontólogos Asociados</p>
+				<img
+					src="../assets/icons/tooth-icon.svg"
+					alt="Logo Odontólogos Asociados"
+					class="logo" />
+			</div>
+			<div class="note-profile">🔔<sup>2</sup> 👤 Diana Castaño</div>
+		</header>
+		<div class="dashboard">
+			<aside class="sidebar">
+				<nav>
+					<a
+						href="#"
+						class="active"
+						>🏠 Inicio</a
+					>
+					<a href="./appointment.html">📅 Citas</a>
+					<a href="./medical-history.html">📄 Historial médico</a>
+					<a href="./payment-history.html">💳 Historial de pago</a>
+					<a href="./notifications.html">💬 Notificaciones <sup>2</sup></a>
+					<a href="./profile.html">👤 Perfil</a>
+					<a href="../index.html">🔚 Terminar sesión</a>
+				</nav>
+				<div style="margin-top: auto">
+					<a
+						href="./booking-appointment.html"
+						class="cta-button"
+						>+ Nueva cita</a
+					>
+				</div>
+			</aside>
+			<main class="main">
+				<div class="greeting">
+					<div>
+						<h2>Bienvenida, Diana</h2>
+						<p>Lunes, 16 de junio de 2025</p>
+					</div>
+				</div>
+
+				<div class="cards">
+					<div class="card">
+						<div class="card-text">
+							<h4>Próxima cita</h4>
+							<p>
+								<strong>16 de junio, 2025</strong><br />10:00 AM - Limpieza
+								dental
+							</p>
+						</div>
+						<img
+							src="../assets/icons/calendar.svg"
+							alt="icono calendario"
+							class="icon-style pendings" />
+					</div>
+					<div class="card">
+						<div class="card-text">
+							<h4>Tratamiento actual</h4>
+							<p><strong>Ortodoncia</strong></p>
+							<p>Progreso: 60%</p>
+							<div class="progress-bar">
+								<div style="width: 60%; background-color: #4caf50"></div>
+							</div>
+						</div>
+						<img
+							src="../assets/icons/green-tooth.svg"
+							alt="icono diente"
+							class="icon-style treatments" />
+					</div>
+					<div class="card">
+						<div class="card-text">
+							<h4>Mensajes no leídos</h4>
+							<p><strong>2 mensajes</strong></p>
+							<p>Último: hace 2 horas</p>
+						</div>
+						<img
+							src="../assets/icons/chat-bubble.svg"
+							alt="icono de mensaje"
+							class="icon-style message" />
+					</div>
+				</div>
+
+				<div class="section">
+					<h3>Próximas citas</h3>
+					<div class="card">
+						<div class="card-date">
+							<img
+								src="../assets/icons/teeth.svg"
+								alt="icono dentadura"
+								class="icon-style pendings" />
+							<p>
+								<strong>Limpieza dental</strong> - Dr. Carlos Rodríguez<br />📆
+								15 de junio, 2025 · 🕒 10:00 AM
+							</p>
+						</div>
+						<div>
+							<button class="reprogram-btn">Reprogramar</button>
+							<button class="cancel-btn">Cancelar</button>
+						</div>
+					</div>
+					<br />
+					<div class="card">
+						<div class="card-date">
+							<img
+								src="../assets/icons/x-rays.svg"
+								alt="icono rayos X"
+								class="icon-style treatments" />
+							<p>
+								<strong>Radiografía dental</strong> - Dra. Ana Martínez<br />📆
+								22 de junio, 2025 · 🕒 2:30 PM
+							</p>
+						</div>
+						<div>
+							<button class="reprogram-btn">Reprogramar</button>
+							<button class="cancel-btn">Cancelar</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="section activities">
+					<div class="card activities-container">
+						<h4>Actividad reciente</h4>
+						<ul class="recent-activities">
+							<li>
+								<img
+									src="../assets/icons/doc-text-search.svg"
+									alt="icono resultados"
+									class="icon-style pendings" />
+								<p>
+									Resultados de rayos X disponibles <br />
+									<span>(Hace 2 días)</span>
+								</p>
+							</li>
+							<li>
+								<img
+									src="../assets/icons/green-calendar.svg"
+									alt="icono calendario tono verde"
+									class="icon-style treatments" />
+								<p>
+									Cita completada: Revisión de ortodoncia <br />
+									<span>(Hace 1 semana)</span>
+								</p>
+							</li>
+							<li>
+								<img
+									src="../assets/icons/chat-bubble.svg"
+									alt="icono de mensaje"
+									class="icon-style message" />
+								<p>
+									Mensaje enviado al Dr. García <br />
+									<span>(Hace 1 semana)</span>
+								</p>
+							</li>
+							<li>
+								<img
+									src="../assets/icons/credit-card.svg"
+									alt="icono tarjeta de credito"
+									class="icon-style payment" />
+								<p>
+									Pago realizado: $150.000<br />
+									<span>(Hace 2 semanas)</span>
+								</p>
+							</li>
+						</ul>
+					</div>
+					<div class="card activities-container">
+						<h4>Recordatorios y consejos</h4>
+						<ul class="recent-activities">
+							<li>
+								<img
+									src="../assets/icons/red-bell-svgrepo.svg"
+									alt="icono campana roja"
+									class="icon-style alert" />
+								<p>
+									Recordatorio de medicación <br />
+									<span>
+										No olvide tomar su medicación antiinflamatoria durante 3
+										días más.
+									</span>
+								</p>
+							</li>
+							<li>
+								<img
+									src="../assets/icons/full-blue-tooth.svg"
+									alt="icono diente azul"
+									class="icon-style pendings" />
+								<p>
+									Consejo de higiene dental <br />
+									<span>
+										Recuerde cepillar sus dientes después de cada comida y usar
+										hilo dental diariamente.
+									</span>
+								</p>
+							</li>
+							<li>
+								<img
+									src="../assets/icons/green-calendar.svg"
+									alt="icono calendario tono verde"
+									class="icon-style treatments" />
+								<p>
+									Próxima revisión de ortodoncia <br />
+									<span>
+										Su próximo ajuste de ortodoncia debe programarse para julio.
+									</span>
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="section">
+					<div class="card history-treatments">
+						<h4>Progreso del tratamiento</h4>
+						<div class="treatments-notes">
+							<div class="treatments-container">
+								<p>
+									Ortodoncia <br />
+									<span>Iniciado: 10 de enero, 2025</span>
+								</p>
+								<div class="progress-meter">
+									<p>Progreso general:</p>
+									<p>60%</p>
+								</div>
+								<div class="progress-bar">
+									<div style="width: 60%; background-color: #1976d2"></div>
+								</div>
+								<div class="progress-meter">
+									<p>Alineación:</p>
+									<p>75%</p>
+								</div>
+								<div class="progress-bar">
+									<div style="width: 75%; background-color: #4caf50"></div>
+								</div>
+								<div class="progress-meter">
+									<p>Corrección de mordida:</p>
+									<p>45%</p>
+								</div>
+								<div class="progress-bar">
+									<div style="width: 45%; background-color: #fbc02d"></div>
+								</div>
+							</div>
+							<p
+								class="dentist-notes"
+								style="margin-top: 1rem">
+								<strong>Notas del dentista:</strong><br />El tratamiento de
+								ortodoncia progresa según lo esperado. Los dientes frontales
+								superiores han mostrado una excelente respuesta. Continúe con el
+								uso de elásticos según las instrucciones para mejorar la
+								corrección de la mordida. <br />
+								<span> – Dr. Carlos Rodríguez, 1 de junio,2025 </span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

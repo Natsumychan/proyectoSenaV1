@@ -1,0 +1,149 @@
+.user-profile,
+.book-appointment,
+.medical-history,
+.payment-history,
+.notifications,
+.password-recovery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #fff;
+	padding: 25px;
+	border-radius: 16px;
+	max-width: 600px;
+	margin: 30px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	color: #00439c;
+	text-align: center;
+}
+
+input,
+select,
+textarea,
+button {
+	display: flex;
+	width: 100%;
+	max-width: 600px;
+	margin: 10px 0;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-size: 14px;
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	width: 80%;
+	background-color: #2563eb;
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #003377;
+}
+
+label {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.actions {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.actions button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	margin-right: 10px;
+}
+
+a {
+	color: #00439c;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.tabs {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.tabs li {
+	margin-right: 15px;
+	padding: 8px 12px;
+	background: #67a5cf;
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+}
+
+.tabs .active {
+	background: #00439c;
+}
+
+.notification-item,
+.history-item,
+.payment-item,
+.appointments-page {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 12px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.appointments-btns {
+	width: 12rem;
+}
+
+.appointments-btns .reprogram-btn {
+	color: #000000;
+}
+
+.landing-btn {
+	align-self: center;
+}
+
+.checkbox-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 2px;
+}
+
+.checkbox-container input {
+	width: 5%;
+}
+
+.password-recovery-contain {
+	padding-top: 5%;
+	width: 100dvw;
+	height: 100vh;
+	background-color: #f8f9fa;
+}
